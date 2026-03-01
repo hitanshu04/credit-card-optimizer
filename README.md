@@ -12,13 +12,10 @@ Most AI financial tools act as generic "wrappers" that hallucinate mathematics a
 
 The **Personalized Wealth-Maximizer** is a deterministic, AI-powered financial engine. It ingests raw bank statements, applies strict semantic tagging, and calculates exact, real-world credit card ROI without mathematical hallucinations.
 
-## 📺 Live Demo & Proof of Work
+## 📺 Live Demo
 
 * **Full Video Demonstration (~6 mins):** [https://youtu.be/x7m3gAh_9BY]
 *(Highly recommended: Showcases the 100% mathematical accuracy and edge-case handling of the Titanium Backend running locally).*
-* **Live Sandbox (Streamlit Cloud):** `[Streamlit Link]`
-*(Note: Deployed on a free-tier API. You may experience latency during the AI tagging phase or occasional 'Quota Exceeded' errors).*
-
 ---
 
 ## 🛡️ The "Titanium" Architecture (Key Features)
