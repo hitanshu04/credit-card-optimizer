@@ -5,6 +5,8 @@
 ![Gemini API](https://img.shields.io/badge/AI-Google_Gemini-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Production_Ready-success.svg)
 
+<img width="1919" height="779" alt="Screenshot 2026-03-01 211850" src="https://github.com/user-attachments/assets/170fa11b-777c-42ea-ac0c-45b380eca00e" />
+
 ## 📌 The Problem It Solves
 Most AI financial tools act as generic "wrappers" that hallucinate mathematics and fail to understand the fine print of banking terms (like category exclusions or fee waivers). 
 
@@ -45,8 +47,8 @@ This project avoids AI unreliability by separating the **Language Engine** from 
 Follow these steps to run the Personalized Wealth-Maximizer securely on your local machine:
 
 **1. Clone the repository**
-`git clone https://github.com/hitanhsu04/credit-card-optimizer.git`
-`cd wealth-maximizer-ai`
+`git clone https://github.com/hitanshu04/credit-card-optimizer.git`
+`cd credit-card-optimizer`
 
 **2. Create a Virtual Environment (Recommended)**
 `python -m venv venv`
