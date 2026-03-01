@@ -1,0 +1,67 @@
+{
+  "CASHBACK SBI CARD": {
+    "inr_value_per_unit": "1 INR",
+    "reward_multiplier": "5% on Online Spends, 1% on Offline",
+    "reward_expiry": "No Expiry (Auto-credited to statement)",
+    "lounge_domestic": null,
+    "lounge_international": null,
+    "movie_benefits": null,
+    "golf_benefits": null,
+    "welcome_benefits": null,
+    "milestone_benefits": "Renewal fee waived on annual spends of Rs. 2 Lakhs",
+    "special_tie_ups": null,
+    "earning_caps": "Max 5000 INR per billing cycle for 5% category"
+  },
+  "SimplyCLICK SBI CARD": {
+    "inr_value_per_unit": "0.25 INR (4 Reward Points = 1 Rupee)",
+    "reward_expiry": "2 Years from accumulation",
+    "redemption_options": "SBI Card Rewards Catalogue (e-vouchers, products) or statement balance credit",
+    "lounge_domestic": null,
+    "lounge_international": null,
+    "movie_benefits": null,
+    "golf_benefits": null,
+    "earning_caps": "Unlimited"
+  },
+  "HDFC Millennia Credit Card": {
+    "inr_value_per_unit": "1 INR",
+    "reward_expiry": "2 Years from accumulation",
+    "lounge_domestic": null,
+    "lounge_international": null,
+    "movie_benefits": null,
+    "golf_benefits": null,
+    "welcome_benefits": "1000 Reward Points on payment of Joining membership fee",
+    "milestone_benefits": "₹1000 worth gift vouchers on spends of ₹1,00,000 and above in each calendar quarter",
+    "special_tie_ups": "Swiggy Dineout, Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber, Zomato",
+    "earning_caps": "1000 Reward Points on 5% cashback, 1000 Reward Points on 1% cashback",
+    "redemption_options": "Minimum 500 Reward Points for redemption, 1 Reward Point = ₹1 for CashBack redemption, 1 Reward Point = ₹1 for travel benefits, 1 Reward Point = upto ₹0.30 for SmartBuy Rewards Portal, 50% of booking value for flights and hotels, 70% of product/voucher value for select vouchers/products, 3000 rewards points per calendar month for CashBack redemption, 50,000 rewards points per calendar month for flights and hotels redemption"
+  },
+  "HDFC Bank MoneyBack+ Credit Card": {
+    "network": "Visa/Mastercard/RuPay (UPI Enabled)",
+    "lounge_domestic": null,
+    "lounge_international": null,
+    "movie_benefits": null,
+    "golf_benefits": null,
+    "earning_caps": "Max 2,500 CashPoints per month on 10X categories; Max 2,500 on 5X EMI"
+  },
+  "Amazon Pay ICICI Bank Credit Card":{
+    "waiver_threshold": "Lifetime Free (No annual fee to waive)",
+    "lounge_domestic": null,
+    "lounge_international": null,
+    "movie_benefits": null,
+    "golf_benefits": null,
+    "milestone_benefits": null,
+    "special_tie_ups": "Amazon, Amazon Pay Partner Merchants (Swiggy, Uber, etc.)",
+    "earning_caps": "Unlimited (No capping on cashback earned)"
+  },
+  "ICICI Bank Coral Credit Card":{
+    "inr_value_per_unit": "0.25 INR (1 Reward Point = 0.25 Rupee)",
+    "reward_multiplier": "2 Reward Points per Rs 100 spent (1 Point per Rs 100 on utilities/insurance; 0 on fuel)",
+    "reward_expiry": "3 Years from accumulation",
+    "lounge_international": null,
+    "golf_benefits": null,
+    "welcome_benefits": "500 Reward Points on payment of joining fee (if not issued as Lifetime Free)",
+    "earning_caps": "No capping on base reward points accumulation"
+  }
+
+}
+

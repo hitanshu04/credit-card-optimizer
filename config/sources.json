@@ -1,0 +1,27 @@
+[
+  {
+    "card_name": "CASHBACK SBI CARD",
+    "urls": []
+  },
+  {
+    "card_name": "SimplyCLICK SBI CARD",
+    "urls": []
+  },
+  {
+    "card_name": "HDFC Bank Millennia Credit Card",
+    "urls": []
+  },
+  {
+    "card_name": "HDFC Bank MoneyBack+ Credit Card",
+    "urls":[]
+  },
+  {
+    "card_name" : "Amazon Pay ICICI Bank Credit Card",
+    "urls":[]
+  },
+  {
+    "card_name":"ICICI Bank Coral Credit Card",
+    "urls":["https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card"]
+  }
+
+]
