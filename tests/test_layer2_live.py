@@ -25,7 +25,7 @@ def test_layer2_flow(file_path):
     
     df_tagged = tag_transactions_with_ai(df_sample, api_key)
     
-    print("\n🔥 FINAL LAYER 2 OUTPUT 🔥")
+    print("\nFINAL LAYER 2 OUTPUT")
     print(df_tagged[['note', 'amount', 'category', 'merchant']])
 
 if __name__ == "__main__":

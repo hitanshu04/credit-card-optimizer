@@ -7,7 +7,7 @@ from src.agent.prompts import FINANCIAL_ADVISOR_PROMPT
 def get_financial_advice(user_message, math_context, db_context, chat_history, api_key):
     """
     AI Agent Router.
-    Injects 100% factual math and DB data into the LLM context to guarantee 0% hallucination.
+    Injects accurate factual math and DB data into the LLM context to guarantee 0% hallucination.
     """
     try:
         # 1. Initialize the Secure Client

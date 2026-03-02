@@ -1,7 +1,5 @@
 import os
 
-
-# .env file se safely API key read karne ka simple hack
 api_key = None
 try:
     with open(".env", "r") as f:

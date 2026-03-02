@@ -3,7 +3,7 @@ import pandas as pd
 file_path = 'data/sample_uploads/transactions (2).xlsx'
 df = pd.read_excel(file_path)
 
-# 🚨 AUTO-FIX: Sabhi columns ko lowercase kar do aur spaces hata do
+# ALl columns in lower case and removal of spaces
 df.columns = df.columns.str.strip().str.lower()
 
 if 'amount' not in df.columns:
@@ -13,7 +13,7 @@ else:
     df_sorted = df.sort_values(by='amount', ascending=False)
     
     print("--- TOP 5 BIGGEST SPENDS (The Culprits) ---")
-    # Merchant aur Category column names bhi check kar lena agar error aaye
+    # Check Merchant & category column names, if error occurs
     print(df_sorted.head(5))
 
     print("\n--- TOTAL SUM CHECK ---")
