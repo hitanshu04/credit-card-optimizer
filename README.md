@@ -5,18 +5,17 @@
 ![Gemini API](https://img.shields.io/badge/AI-Google_Gemini-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Production_Ready-success.svg)
 
+<img width="1919" height="779" alt="Screenshot 2026-03-01 211850" src="https://github.com/user-attachments/assets/170fa11b-777c-42ea-ac0c-45b380eca00e" />
+
 ## 📌 The Problem It Solves
 Most AI financial tools act as generic "wrappers" that hallucinate mathematics and fail to understand the fine print of banking terms (like category exclusions or fee waivers). 
 
 The **Personalized Wealth-Maximizer** is a deterministic, AI-powered financial engine. It ingests raw bank statements, applies strict semantic tagging, and calculates exact, real-world credit card ROI without mathematical hallucinations.
 
-## 📺 Live Demo & Proof of Work
+## 📺 Live Demo
 
 * **Full Video Demonstration (~6 mins):** [https://youtu.be/x7m3gAh_9BY]
 *(Highly recommended: Showcases the 100% mathematical accuracy and edge-case handling of the Titanium Backend running locally).*
-* **Live Sandbox (Streamlit Cloud):** `[Streamlit Link]`
-*(Note: Deployed on a free-tier API. You may experience latency during the AI tagging phase or occasional 'Quota Exceeded' errors).*
-
 ---
 
 ## 🛡️ The "Titanium" Architecture (Key Features)
@@ -45,8 +44,8 @@ This project avoids AI unreliability by separating the **Language Engine** from 
 Follow these steps to run the Personalized Wealth-Maximizer securely on your local machine:
 
 **1. Clone the repository**
-`git clone https://github.com/hitanhsu04/credit-card-optimizer.git`
-`cd wealth-maximizer-ai`
+`git clone https://github.com/hitanshu04/credit-card-optimizer.git`
+`cd credit-card-optimizer`
 
 **2. Create a Virtual Environment (Recommended)**
 `python -m venv venv`
