@@ -22,7 +22,7 @@ def get_financial_advice(user_message, math_context, db_context, chat_history, a
         
         # 3. Format Conversation History (Memory)
         # Streamlit uses {"role": "user", "content": "..."} format
-        # We convert it to Gemini's strict Content format so it remembers previous questions
+        # Convert it to Gemini's strict Content format so it remembers previous questions
         gemini_history = []
         if chat_history:
             for msg in chat_history:
@@ -50,3 +50,5 @@ def get_financial_advice(user_message, math_context, db_context, chat_history, a
     except Exception as e:
         # 6. The Ultimate Failsafe (If API fails, UI doesn't crash)
         return f"⚠️ System Error: Unable to connect to the advisor engine. Please try again. Details: {str(e)}"
+    
+    

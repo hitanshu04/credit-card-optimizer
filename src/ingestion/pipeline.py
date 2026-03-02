@@ -69,27 +69,8 @@ def save_card_to_db(structured_json_str, name):
                             card_values[key] = val
             except Exception as e:
                 print(f"      -> ❌ [HYBRID ERROR] Could not read manual data: {e}")
-        # # 2. 🔥 HYBRID MERGE LOGIC (The 20 LPA Move) 🔥
-        # Path to your manual math data file
-        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        manual_data_path = os.path.join(base_dir, 'data', 'manual_math_data.json')
-
-        if os.path.exists(manual_data_path):
-            try:
-                with open(manual_data_path, 'r') as f:
-                    manual_data = json.load(f)
-                
-                # Agar current card manual JSON mein hai, toh values overwrite/fill kar do
-                if name in manual_data:
-                    print(f"      -> 🔄 [HYBRID MERGE] Injecting accurate math config for: {name}")
-                    math_rules = manual_data[name]
-                    for key, val in math_rules.items():
-                        if val is not None:
-                            card_values[key] = val
-            except Exception as e:
-                print(f"      -> ❌ [HYBRID ERROR] Could not read manual data: {e}")
         
-        # 3. Final Database Upsert (The Smart Update)
+        # 3. Final Database Upsert
         if existing_card:
             print(f"      -> Updating existing card: {name}")
             for key, value in card_values.items():

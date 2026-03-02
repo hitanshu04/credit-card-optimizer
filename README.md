@@ -63,6 +63,8 @@ Create a `.env` file in the root directory and add your Google Gemini API key:
 **5. Run the Application**
 `streamlit run app.py`
 
+**Note on Data Ingestion: The engine currently bypasses live URL scraping to maintain sub-second latency and mathematical stability. All core rules for the 6 target cards have been pre-hydrated into the JSON Ground Truth layer.**
+
 ---
 
 ## ⚙️ How It Works (The Pipeline)

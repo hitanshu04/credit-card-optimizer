@@ -1,6 +1,5 @@
 import os
 import json
-# from groq import Groq
 from google import genai
 from google.genai import types
 
@@ -20,17 +19,6 @@ if not API_KEY:
 client = genai.Client(api_key=API_KEY)
 
 MODEL_NAME = "gemini-2.5-flash" 
-
-
-# if not API_KEY:
-#     raise ValueError("GROQ_API_KEY not found in .env file!")
-
-# # 3. INITIALIZE THE NEW SDK CLIENT
-# # New 'google-genai' package.
-# client = Groq(api_key=API_KEY)
-
-# 4. THE STRICT BLUEPRINT (SCHEMA)
-# Each class represents a category so that code is clean.
 
 class Fees(BaseModel):
     joining: str | None = Field(description="Exact Joining fee amount")
@@ -76,7 +64,7 @@ class CreditCardSchema(BaseModel):
 def extract_card_data(raw_text: str, card_name: str) -> str:
     print(f"      -> Using Model: {MODEL_NAME} for extraction...")
     
-    # We convert the Pydantic model to a JSON Schema string to 'teach' the AI
+    # Convert the Pydantic model to a JSON Schema string to 'teach' the AI
     schema_instructions = json.dumps(CreditCardSchema.model_json_schema(), indent=2)
 
     prompt = f"""

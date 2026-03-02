@@ -84,7 +84,7 @@ def tag_transactions_with_ai(df, api_key):
                 if len(results) != len(batch):
                     raise ValueError(f"Length mismatch! Sent {len(batch)}, AI returned {len(results)}")
                 
-                # 5. THE MAGIC MERGE (ID-BASED ANCHORING)
+                # 5. THE IMP MERGE (ID-BASED ANCHORING)
                 for ai_res in results:
                     t_id = ai_res.get('id')
                     ai_cat = ai_res.get('category', 'P2P/Ignored')
